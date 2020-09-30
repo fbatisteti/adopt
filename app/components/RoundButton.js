@@ -15,8 +15,8 @@ function RoundButton(props) {
         type="font-awesome"
         raised
         reverse
-        reverseColor={props.color}
-        color={colors.ezlight}
+        reverseColor={colors.light}
+        color={props.color}
       />
     </View>
   );
@@ -24,7 +24,7 @@ function RoundButton(props) {
 
 const styles = StyleSheet.create({
   button: {
-    fontSize: 40,
+    fontSize: 30,
   },
 });
 

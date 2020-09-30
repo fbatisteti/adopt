@@ -22,6 +22,7 @@ function RoundButtonSmall(props) {
 const styles = StyleSheet.create({
   button: {
     fontSize: 20,
+    paddingTop: 25,
   },
 });
 

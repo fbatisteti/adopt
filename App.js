@@ -1,5 +1,4 @@
 // imports do sistema
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, SafeAreaView } from "react-native";
 

@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     height: "80%",
     borderWidth: 1,
     borderRadius: 20,
+    backgroundColor: colors.ezlight,
   },
 
   cardPicture: {
