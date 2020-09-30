@@ -1,21 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+// imports do sistema
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import { StyleSheet, SafeAreaView } from "react-native";
+
+// nossos imports
+import GlobalStyles from "./app/config/GlobalStyles";
+import HomeScreen from "./app/scenes/HomeScreen";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={GlobalStyles.droidSafeArea}>
+      <HomeScreen />
+    </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const styles = StyleSheet.create({});
